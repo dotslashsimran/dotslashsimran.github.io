@@ -26,6 +26,20 @@ html{
     background: #555;
 }
 
+.website-counter {
+    background-color: #888;
+    height: 50px;
+    width: 80px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: auto; 
+margin-right: 0
+    
+  }
+
 /* all similar content styling codes */
 section{
     padding: 100px 0;
@@ -35,6 +49,21 @@ section{
     padding: 0 80px;
     margin: auto;
 }
+
+.max-width .visitor{ 
+    margin-left: auto;
+    margin-right: 0;
+    color: white;
+}
+
+.max-width .website-counter {
+    background-color: transparent;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+  }
 .about, .services, .skills, .teams, .contact, .education, footer{
     font-family: 'Poppins', sans-serif;
 }
@@ -90,6 +119,11 @@ section .title::after{
 .navbar.sticky{
     padding: 15px 0;
     background: #2541B2;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .navbar .max-width{
     display: flex;
@@ -195,7 +229,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #2541B2;
+    color: rgb(151, 216, 216);
     font-weight: 500;
 }
 .home .home-content a{
